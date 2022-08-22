@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+            <section class="navmenu">
+            <div class="logo">
+                <i class="fa-thin fa-at"></i><h1>Aditya</h1>
+            </div>
+            
+            <nav>
+                <div class="openMenu"><i class="fa-solid fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#aboutme">ABOUT ME</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
+                </ul>
+            </nav>
+            </section> 
+
+            <div class="container-jumbotron">
+            <section class="jumbotron">
+                <div class="text">
+                    <h3>Hello,iam</h3>
+                    <h1>Aditya Septiadi</h1>
+                    <div class="down">
+                    <h3>Front end ..<br>Developher</h3>
+                    </div>
+                </div>
+            </section>
+            </div>
+    </header>
+    <main>
+        <article class="aboutme" id="aboutme">
+            <div class="header">
+                <h1>ABOUT ME</h1>
+                <p>Let me introduce myself in more detail, I hope we can get to know each other better :)</p>
+            </div>
+            <div class="content">
+                <aside class="profile">
+                    <img src="img/hero.png" alt="hero.png">
+                    <p>
+                        <span>Hello</span>, my name is Aditya Septiadi, I'm from Indonesia. I have been in the world of technology since early 2022. The reason I am interested in the world of technology is because we have entered an era of globalization where technological development is growing rapidly and we cannot escape it. 
+                    </p>
+                    <p>In the world of technology I go into more specific fields, namely web developer and data analyst.</p>
+                </aside>
+
+                <section>
+                    <h1>My Skill</h1>
+                        <li>
+                            <h3>Html</h3>
+                            <span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>Css</h3>
+                            <span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>Javascript</h3>
+                            <span class="bar"><span class="javascript"></span></span>
+                        </li>
+                        <li>
+                            <h3>MySql</h3>
+                            <span class="bar"><span class="mysql"></span></span>
+                        </li>
+                </section>
+            </div>
+        </article>
+
+        <article class="cover-project" id="project">
+            <div class="header">
+                <h1>PROJECT</h1>
+                <p>This is my project, let's check it to find out more</p>
+            </div>
+
+            <div class="container-project">
+                <div class="box-project">
+                    <img src="img/Portfolio-Project-2.png" alt="">
+                    <h1>Course-online</h1>
+                    <p>This website uses css and javascript, and was created in two weeks</p>
+                    <button>See More</button>
+                </div>
+                <div class="box-project">
+                    <img src="img/Portfolio-Project-1.png" alt="">
+                    <h1>Company-profile</h1>
+                    <p>This website uses css and uses framefork boostrap 5, and was created in 1 week</p>
+                    <button>See More</button>
+                </div>
+                <div class="box-project">
+                    <img src="img/Portfolio-Project-3 .png" alt="">
+                    <h1>Portfolio</h1>
+                    <p>This website uses css, javascript and uses framefork boostrap 5, and was created in 3 weeks</p>
+                    <button>See More</button>
+                </div>
+            </div>
+        </article>
+
+        <article class=" cover-blog" id="blog">
+            <div class="header">
+                <h1>BLOG</h1>
+                <p>This is my latest blog, interested? yes it should be.</p>
+            </div>
+
+            <div class="container-blog">
+                <div class=" box-blog satu">
+                    <div class="isi">
+                    <h1>Bigdata</h1>
+                    <p>Data is growing rapidly, and is very important in various ways, especially..</p>
+                    <button>See More</button>
+                    </div>
+                </div>
+                <div class=" box-blog dua">
+                    <div class="isi">
+                    <h1>Economic growth</h1>
+                    <p>Due to COVID-19, some economic growth in various countries has decra..</p>
+                    <button>See More</button>
+                    </div>
+                </div>
+                <div class=" box-blog tiga">
+                    <div class="isi">
+                    <h1>Programming</h1>
+                    <p>Currently, programming languages ​​are growing day by day. many new ...</p>
+                    <button>See More</button>
+                    </div>
+                </div>
+                <div class=" box-blog empat">
+                    <div class="isi">
+                    <h1>Business</h1>
+                    <p>Now there are many ways for people to build their own business. Than n..</p>
+                    <button>See More</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="contact" id="contact">
+            <div class="header">
+                <h1>CONTACT ME</h1>
+                <p>If you want to know more about me, to establish connections, or work together. Please contact me</p>
+            </div>
+
+            <form action="">
+                <p>Name</p>
+                <input type="text" placeholder="FullName">
+                <p>Email</p>
+                <input type="email" placeholder="EmailName">
+                <p>Message</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        copyright &copy; by aditya septiadi
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/623c119445.js" crossorigin="anonymous"></script>
+</body>
+</html>
